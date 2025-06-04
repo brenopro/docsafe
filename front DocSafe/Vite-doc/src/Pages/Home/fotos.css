@@ -1,0 +1,19 @@
+/* Adicione ao acesso.css */
+.fotos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.foto-item {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar li.active {
+    background-color: #f0f0f0;
+    border-left: 3px solid #007bff;
+}
